@@ -12,8 +12,57 @@
   <script src="https://kit.fontawesome.com/61b5532f6b.js" crossorigin="anonymous"></script>
   <!-- Tailwind  -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
 </head>
 <body>
+  <!-- Main Section -->
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+    <!-- Header Section -->
+     <header class="flex pt-10 mb-20">
+      <!-- Text content -->
+       <div>
+        <h1 class="text-5xl md:text-7xl">It's good<br>
+          tea time at The<br>
+          Tea House</h1>
+          <br>
+          <p class="w-3/4 text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+            To Your Taste Buds.</p>
+          <br>
+          <button class="text-white bg-gradient-to-r from-orange-500 to-red-500 py-3 px-5 font-bold rounded-lg">Explore More <i class="fa-solid fa-arrow-right -rotate-45	"></i></button>
+
+       </div>
+       <!-- Image Content -->
+        <div class="relative">
+          <!-- Banner -->
+           <div class="">
+            <img src="images/banner.png" alt="">
+           </div>
+           <!-- banner-card -->
+           <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32 lg:left-28">
+            <div>
+              <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+            </div>
+            <div class="ml-2">
+              <h2 class="lg:text-2xl font-bold">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+
+           </div>
+        </div>
+     </header>
+
+  </main>
   
 </body>
 </html>
